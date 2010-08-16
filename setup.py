@@ -13,7 +13,7 @@ setup(
         "Operating System :: POSIX",
         "License :: OSI Approved :: Apache Software License",
 
-    ]
+    ],
     keywords = "buildout template",
     author = "John Carr",
     author_email = "john.carr@isotoma.com",
@@ -22,7 +22,7 @@ setup(
     package_data = {
         '': ['README.rst', 'CHANGES.txt'],
         'isotoma.recipe.apache': ['apache.cfg', 'apache-ssl.cfg']
-    }
+    },
     namespace_packages = ['isotoma', 'isotoma.recipe'],
     include_package_data = True,
     zip_safe = False,
