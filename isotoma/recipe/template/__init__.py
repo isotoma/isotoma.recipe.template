@@ -60,6 +60,9 @@ class Template(object):
         template = open(self.options['input']).read()
         cfgfilename = self.options['output']
 
+        if not cfgfile.startswith("/"):
+            cfgfile = os.path.join(self.buildout['buildout']['parts-directory'], cfgfile)
+
         dir, file = os.path.split(cfgfilename)
         if not os.path.isdir(dir):
             os.makedirs(dir)
