@@ -49,7 +49,7 @@ This software is available from our `recipe repository`_ on github.
 License
 -------
 
-Copyright 2010 Isotoma Limited
+Copyright 2011 Isotoma Limited
 
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.
