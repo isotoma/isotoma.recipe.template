@@ -71,6 +71,4 @@ class Template(object):
         open(cfgfilename, "w").write(str(c))
         return [cfgfilename]
 
-    def update(self):
-        pass
-
+    update = install
