@@ -1,4 +1,4 @@
-# Copyright 2010 Isotoma Limited
+# Copyright 2011 Isotoma Limited
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -71,6 +71,4 @@ class Template(object):
         open(cfgfilename, "w").write(str(c))
         return [cfgfilename]
 
-    def update(self):
-        pass
-
+    update = install
